@@ -1,5 +1,3 @@
-from os import environ
-
 from langchain_google_genai import ChatGoogleGenerativeAI, GoogleGenerativeAIEmbeddings
 from langchain_neo4j import Neo4jVector
 from mem0 import Memory
@@ -64,5 +62,3 @@ config = {
         },
     },
 }
-
-memory = Memory.from_config(config)
